@@ -85,5 +85,35 @@ white-space:nowrap;
 #mainNav .navbar-toggler{
 margin-left:auto;
 }
+/* ===============================
+REDES
+=============================== */
+}
+.social-icons{
+display:flex;
+justify-content:center;
+gap:25px;
+}
 
+.social-icon{
+font-size:40px;
+color:white;
+transition:all 0.3s ease;
+}
+
+.social-icon:hover{
+transform:scale(1.3);
+color:#ff3b3b;
+}
+
+.social-count{
+color:white;
+font-size:18px;
+font-weight:600;
+}
+/* ===============================
+REDUCIR MARGEN 
+=============================== */
+#about.page-section{
+padding:5rem 0 8rem 0 !important;
 }
