@@ -62,3 +62,28 @@ COLOR DEL LOGO DEL MENU
     }
 
 }
+/* ===============================
+ARREGLO NAVBAR MOVIL
+=============================== */
+
+@media (max-width: 991px){
+
+#mainNav .container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+#mainNav .navbar-brand{
+display:flex;
+align-items:center;
+gap:8px;
+font-size:18px;
+white-space:nowrap;
+}
+
+#mainNav .navbar-toggler{
+margin-left:auto;
+}
+
+}
